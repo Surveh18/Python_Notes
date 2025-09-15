@@ -1,0 +1,48 @@
+CAUTION: JO BHI OPERATION YHA PERFORM HONGE THAT ARE NOT REVERSIBLE 
+recycle bin mai nhi jaayegi yaha se jo bhi delete/remove hoga
+TERMOINAL Se path verify krna run krne se pehle 
+
+----------To rename a file:----------
+
+import os
+if os.path.exists("hello.txt")
+    os.rename("hello.txt", "new_hello.txt")
+    print("File Rename.")
+else:
+    print("File does not exist.")
+
+Comments:- 
+Upr hmne simple sa program likha hai jisme koi ek file agr exist krti ho 
+to rename krdo vrna else part chalega.
+
+----------How to delete a file:-----------
+
+import os
+if os.path.exists("hello.txt")
+    os.remove("hello.txt")
+    print("File Removed/Deleted.")
+else:
+    print("File does not exist.")
+
+----------How to delete a Folder:(Works only if folder is empty)----------
+
+import os
+# Deleting an empty directory.
+if os.path.exists("Folder 1")
+    os.rmdir("Folder 1")
+    print("Directory deleted.")
+else:
+    print("File does not exist.")
+
+# If folder is not empty it throughs error.
+
+----------Deleting a directory with all its contents:----------
+
+import os
+import shutil
+if os.path.exists("Folder 1")
+    os.rmtree("Folder 1")
+    print("File Rename.")
+else:
+    print("File does not exist.")
+# rmtree we can assume like a tree contains branches 

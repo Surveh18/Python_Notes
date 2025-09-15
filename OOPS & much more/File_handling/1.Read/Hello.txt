@@ -1,0 +1,14 @@
+=== Motivational Quotes ===
+1. "The only way to do great work is to love what you do." — Steve Jobs
+2. "It always seems impossible until it’s done." — Nelson Mandela
+3. "Do one thing every day that scares you." — Eleanor Roosevelt
+
+=== Quick Facts ===
+• The Eiffel Tower can be 15 cm taller during summer.
+• Honey never spoils — archaeologists found 3000-year-old honey still edible.
+• Bananas are berries, but strawberries aren’t.
+
+=== Fun Twist ===
+If you are reading this file with Python, try printing:
+print("Hello from inside the file!")
+Then smile — because now you can say your file told you to do it 😄
